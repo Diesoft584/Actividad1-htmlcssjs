@@ -1,11 +1,73 @@
-header {
 
-        background: green;
+*{
+
+        margin: 0;
+        padding: 0;
+        
+        
 
 }
 
-footer {
+head, body, footer, header, section, nav {
 
-        background: red;
+        display: block;
+}
 
+.agrupar {
+
+        width: 960px;
+        border: 1px solid black;
+        text-align: center;
+        margin: 50px auto;
+}
+
+.header{
+
+        background:#329315; 
+        padding: 20px;
+        border: 1px solid red;
+}
+
+.menu{
+
+        background:cyan;
+        padding: 5px 15px;
+
+
+}
+
+.menu li{
+
+        list-style: none;
+        font: bold 14px verdana;
+        border: 1px solid green;
+        display: inline-block;
+        padding: 5px 15px;
+}
+
+.section{
+
+        width: 600px;
+        margin: 20px 10px;
+        border: 1px solid red;
+        padding: 200px 10px;
+        float: left;
+
+}
+.section2{
+
+        width: 200px;
+        margin: 20px 20px;
+        border: 1px solid green;
+        padding: 20px 20px;
+        float: right;
+
+
+}
+
+.footer{
+
+        clear: both;  
+        background-color: gray;     
+        padding: 20px; 
 }
